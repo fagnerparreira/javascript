@@ -1,5 +1,82 @@
 
 
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = " Obrigado por clicar";
+ 
+ 
+    // alert("Obrigado por ter clicado")
+}
+
+
+function redirecionar() {
+    window.open("https://web.digitalinnovation.one/home")
+    //window.location.href = "https://web.digitalinnovation.one/home";
+}
+
+function trocar(elemento) {
+    //document.getElementById("mousemove").innerHTML ="Obrigado por passar o mouse";
+   elemento.innerHTML = "Obrigado por passar o mouse";
+   
+    // alert("trocar texto");
+
+}
+
+
+function voltar (elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+    elemento.innerHTML = "passe o mouse aqui";
+
+}
+
+
+function load(){
+    alert("pagina carregada");
+}
+
+
+function funcaoChange(elemento){
+    console.log(elemnto.value)
+
+}
+
+
+
+
+/*
+function soma(n1, n2){
+        return n1 + n2;
+}
+
+
+var validar = 0;
+
+function validaIdade(idade){
+    if (idade >=18){
+        validar = true
+    }else {
+        validar = true
+    }
+    return validar;
+}
+
+var idade = prompt("Qual sua idade");
+validaIdade(idade)
+console.log(validar);
+
+*/
+
+
+
+
+
+
+/*function setReplace(frase, nome, nome_nome){
+    return frase.replace(nome, nome_nome)
+}
+
+alert(soma(5,10));
+alert(setReplace("Vai Japão", "Japão", "Brasil"));
+*/
 /*var d = new Date();
 alert (d.getDay()+1);
 */
