@@ -1,3 +1,3 @@
-avascript
-introdução ao javascript
+Javascript
+Introdução ao javascript
 na dio
